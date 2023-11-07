@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="420dp"
+    android:backgroundTint="@color/black"
+    app:cardCornerRadius="90dp"
+    android:paddingTop="20dp">
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qwer"
+            android:drawableTop="@drawable/baseline_keyboard_capslock_24">
+
+        </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="34dp"
+        android:id="@+id/name1"
+        android:layout_below="@+id/qwer"
+        android:textColor="@color/white"
+        android:paddingLeft="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:drawableLeft="@drawable/baseline_share_24">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rename"
+        android:id="@+id/name2"
+        android:textSize="36dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/name1"
+        android:paddingLeft="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="29dp"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="34dp"
+        android:textColor="@color/white"
+        android:id="@+id/name3"
+        android:layout_below="@id/name2"
+        android:paddingLeft="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:drawableLeft="@drawable/baseline_delete_24">
+
+    </TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
